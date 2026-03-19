@@ -1,16 +1,224 @@
-<!Doctype html>
-<html>
- <head>
-  <title>worabilly.github.io</title>
-  <style>
-   body {
-	background: #FFFF00;
-	}
-  </style>
-  <script language="Javascript" src="javas.js"></script>
- </head>
- <body>
-  <h1>Hello World!</h1>
-  <div id='msgscreen'></div>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    <div class="container">
+      <!-- Section 1 -->
+      <section class="section-1 center" id="section-1">
+        <h1 class="section-1-heading">
+          Developeur
+        </h1>
+        <img src="images/john-smith.jpg" alt="John Smith" class="person-img" />
+        <h3 class="person-name">Woraphong Billy</h3>
+        <a href="#section-3" class="section-1-btn">Projects</a>
+      </section>
+
+      <!-- Navbar -->
+      <nav class="navbar center">
+        <a href="#section-1" class="navbar-link">Home</a>
+        <a href="#section-2" class="navbar-link">About</a>
+        <a href="#section-3" class="navbar-link">Projects</a>
+      </nav>
+
+      <!-- Section 2 -->
+      <section class="section-2" id="section-2">
+        <h1 class="section-heading section-2-heading">About Me</h1>
+        <div class="progress-bars-wrapper">
+          <div class="progress-bar">
+            <p class="progress-text">
+              C++
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              JavaScript
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              HTML
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              MySQL
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              Python
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              PHP
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              C#
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <i class="far fa-lightbulb"></i>
+            <h2 class="service-heading">Creative</h2>
+          </div>
+          <div class="service">
+            <i class="fas fa-puzzle-piece"></i>
+            <h2 class="service-heading">Problem Solving</h2>
+          </div>
+          <div class="service">
+            <i class="fas fa-rocket"></i>
+            <h2 class="service-heading">Fast</h2>
+          </div>
+          <div class="service">
+            <i class="fas fa-arrows-rotate"></i>
+            <h2 class="service-heading">Dynamic</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="section-3" id="section-3">
+        <h1 class="section-heading section-3-heading">My Projects</h1>
+        <div class="projects-wrapper center">
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">MyChat</h2>
+              <h4 class="project-technologies">Text Generation AI / C++ / Qt6</h4>
+            </div>
+            <img src="projects/ai/my_chat.jpg" class="project-img" />
+            <a
+              href="projects/ai/my_chat.mp4"
+              class="project-link"
+              target="_blank">Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Qt6 Video Player</h2>
+              <h4 class="project-technologies">C++ / Qt6</h4>
+            </div>
+            <img src="projects/cpp/Qt6VideoPlayer.jpg" class="project-img" />
+            <a
+              href="projects/cpp/Qt6VideoPlayer.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">My Sudoku</h2>
+              <h4 class="project-technologies">C++ / SFML</h4>
+            </div>
+            <img src="projects/cpp/Sudoku-1.jpg" class="project-img" />
+            <a
+              href="projects/cpp/Sudoku.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Web Board</h2>
+              <h4 class="project-technologies">HTML / CSS / PHP / JS</h4>
+            </div>
+            <img src="projects/php/webpage-2.jpg" class="project-img" />
+            <a
+              href="projects/php/webpage.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Maze Game</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="projects/javascript/mazegame-1.jpg" class="project-img" />
+            <a
+              href="projects/javascript/mazegame.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Copter Game</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="projects/javascript/coptergame-1.jpg" class="project-img" />
+            <a
+              href="projects/javascript/coptergame.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">3D Maze Game</h2>
+              <h4 class="project-technologies">C++ / SDL</h4>
+            </div>
+            <img src="projects/cpp/3DMaze.jpg" class="project-img" />
+            <a
+              href="projects/cpp/3DMaze.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Running Video Generator</h2>
+              <h4 class="project-technologies">ComfyUI / LTX-Video</h4>
+            </div>
+            <img src="projects/ai/GenAI1.jpg" class="project-img" />
+            <a
+              href="projects/ai/GenAI.mp4"
+              class="project-link"
+              target="_blank"
+              >Go to Video
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <footer class="section-4 center">
+        <p class="copyright">
+          Copyright &copy; Woraphong Billy. All Rights Reserved
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
